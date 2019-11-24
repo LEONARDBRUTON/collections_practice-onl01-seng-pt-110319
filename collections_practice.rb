@@ -44,7 +44,7 @@ def sum_array(array)
   array.sum
 end
 
-def add_s()
+def add_s(array)
   array.collect do |element|
     if array[1] == element
       element
