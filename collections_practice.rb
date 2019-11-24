@@ -35,8 +35,8 @@ return array
 end
 
 def find_a(array)
-  array.find_all do |word|
-    word[0] == "a"
+  array.find_all do |element|
+    element[0] == "a"
   end
 end
 
