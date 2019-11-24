@@ -27,5 +27,12 @@ def reverse_array(array)
  array.reverse
  end
  
-
+def kesha_maker(array)
+  i = 0 
+  while i < array.size
+    yield  array[i]
+     i += 1
+  end
+return array
+end
  
